@@ -1,0 +1,31 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "4KV5QMZ574.ai.375.375go",
+        "paths": [
+          "/network",
+          "/rewards",
+          "/rewards/claim/*",
+          "/rewards/follow-twitter",
+          "/rewards/invite-friend",
+          "/club",
+          "/club/leaderboards",
+          "/club/leaderboards/epoch/*",
+          "/club/achievements",
+          "/settings",
+          "/settings/edit-profile",
+          "/settings/notifications",
+          "/settings/devices",
+          "/settings/sign-out",
+          "/achievement/*",
+          "/auth",
+          "/auth/registration/invite-code",
+          "/auth/reset-password",
+          "/auth/confirm-email"
+        ]
+      }
+    ]
+  }
+}
