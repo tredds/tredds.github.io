@@ -1,0 +1,101 @@
+/* ---------- Tokens ---------- */
+:root {
+  /* Forest — locked theme */
+  --bg:        oklch(98% 0.008 145);
+  --bg-tint:   oklch(94% 0.020 150);
+  --surface:   oklch(100% 0 0);
+  --surface-2: oklch(94% 0.012 145);
+  --surface-3: oklch(96.5% 0.008 145);
+  --fg:        oklch(18% 0.030 155);
+  --muted:     oklch(44% 0.020 150);
+  --subtle:    oklch(52% 0.018 150);
+  --border:        oklch(86% 0.014 145);
+  --hairline:      oklch(91% 0.010 145);
+  --border-strong: oklch(74% 0.018 145);
+  --ink:        oklch(18% 0.040 155);
+  --ink-soft:   oklch(26% 0.040 155);
+  --on-ink:     oklch(98% 0.004 145);
+  --on-ink-1:   oklch(96% 0.005 145);
+  --on-ink-2:   oklch(78% 0.012 150);
+  --on-ink-3:   oklch(70% 0.012 150);
+  --on-ink-4:   oklch(64% 0.014 150);
+  --accent:     oklch(46% 0.14 158);
+  --accent-2:   oklch(60% 0.16 175);
+  --accent-ink: oklch(36% 0.14 158);
+  --success: oklch(58% 0.14 155);
+  --warn:    oklch(70% 0.14 75);
+
+  --font-display: 'Charter', 'Iowan Old Style', 'Source Serif Pro', Georgia, 'Times New Roman', serif;
+  --font-body:    -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', system-ui, sans-serif;
+  --font-mono:    'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, monospace;
+
+  --container: 1280px;
+  --gutter: clamp(20px, 4.2vw, 64px);
+
+  /* ---- Spacing scale (atomic) ---- */
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-7:  48px;
+  --space-8:  64px;
+  --space-9:  80px;
+  --space-10: 96px;
+  --space-11: 120px;
+  --space-12: 160px;
+
+  /* ---- Vertical rhythm (semantic, fluid) ---- */
+  --space-section-y:     clamp(80px, 11vw, 160px); /* every <section class="bay"> */
+  --space-section-y-lg:  clamp(100px, 14vw, 180px); /* CTA only */
+  --space-pair-top:      clamp(20px, 3vw, 32px);   /* paired sections continue with reduced top */
+  --space-hero-top:      clamp(80px, 12vw, 160px);
+  --space-hero-bottom:   clamp(60px, 8vw, 120px);
+  --space-quote-y:       clamp(80px, 10vw, 140px);
+  --space-foot-y:        clamp(56px, 8vw, 96px);
+
+  /* ---- Bay head + content rhythm ---- */
+  --space-bay-head-gap:  clamp(24px, 4vw, 64px);   /* kicker column ↔ title column */
+  --space-bay-head-mb:   clamp(40px, 5vw, 72px);   /* bay-head → body */
+
+  /* ---- Card / cell padding ---- */
+  --space-card-pad:      clamp(28px, 4vw, 48px);
+  --space-card-pad-sm:   clamp(24px, 3vw, 36px);
+
+  /* ---- Hero rhythm ---- */
+  --space-hero-eyebrow-mb: clamp(28px, 4vw, 48px);
+  --space-hero-meta-mt:    clamp(32px, 4vw, 52px);
+  --space-hero-meta-gap:   clamp(28px, 5vw, 80px);
+  --space-hero-side-pt:    clamp(28px, 4vw, 44px);
+  --space-hero-cta-mt:     clamp(32px, 4vw, 56px);
+  --space-marquee-mt:      clamp(28px, 3vw, 40px);
+  --gap-cta:               clamp(40px, 6vw, 80px);
+  --gap-foot:              clamp(24px, 4vw, 56px);
+  --dock-edge:             clamp(16px, 2.4vw, 28px);
+
+  /* ---- Type scale (fluid, semantic) ---- */
+  --text-display:        clamp(48px, 8.4vw, 132px);
+  --text-hero-deck:      clamp(22px, 2.4vw, 34px);
+  --text-lede-open:      clamp(24px, 2.3vw, 34px);
+  --text-spec-value:     clamp(15px, 1.3vw, 17px);
+  --text-lede:           clamp(17px, 1.6vw, 21px);
+  --text-bay-title:      clamp(30px, 4.4vw, 52px);
+  --text-bay-lede:       clamp(18px, 1.7vw, 22px);
+  --text-body-l:         clamp(17px, 1.6vw, 22px);
+  --text-lead-display:   clamp(22px, 2.4vw, 32px);
+  --text-card-title:     clamp(22px, 2.4vw, 30px);
+  --text-case-title:     clamp(22px, 2.6vw, 32px);
+  --text-process-title:  clamp(28px, 3.2vw, 40px);
+  --text-process-body:   clamp(19px, 1.9vw, 24px);
+  --text-loop-title:     clamp(36px, 4vw, 56px);
+  --text-loop-body:      clamp(19px, 2vw, 24px);
+  --text-quote:          clamp(28px, 3.6vw, 48px);
+  --text-faq-q:          clamp(18px, 1.9vw, 22px);
+  --text-cta-claim:      clamp(38px, 5.6vw, 84px);
+  --text-cta-aside:      clamp(20px, 2.2vw, 26px);
+  --text-foot-large:     clamp(48px, 8vw, 112px);
+  --text-foot-meta:      clamp(11px, 1vw, 14px);
+
+  color-scheme: light;
+}

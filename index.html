@@ -1,89 +1,628 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>CarpathCode</title>
-    <meta name="description"
-          content="CarpathCode is an agency specialized in mobile apps."/>
-
-    <!--Inter UI font-->
-    <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
-
-    <!--vendors styles-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-
-    <!-- Bootstrap CSS / Color Scheme -->
-    <link rel="stylesheet" href="css/blue.css" id="theme-color">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script>document.documentElement.classList.add('js');</script>
+<title>Carpathcode — the CTO you don't have yet.</title>
+<meta name="description" content="A network studio in Cluj-Napoca, Romania. One accountable principal and on-demand specialists in iOS, backend, web, and design. Phased engagements for funded seed and Series A founders without a CTO." />
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/components.css" />
+<link rel="stylesheet" href="css/sections.css" />
 </head>
 <body>
 
-<!--navigation-->
-<section class="smart-scroll">
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <a class="navbar-brand heading-black" href="index.html">
-                CarpathCode
-            </a>
-        </nav>
+<a class="skip-link" href="#top">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="Carpathcode">
+      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M2 20L7.5 7.5l3.5 5.2 3-3.7 6 11H2z" fill="currentColor"/>
+      </svg>
+      <span>Carpathcode</span>
+    </a>
+    <nav class="nav-menu" aria-label="Primary">
+      <a href="#blueprint">Blueprint</a>
+      <a href="#offer">Phases</a>
+      <a href="#process">Process</a>
+      <a href="#network">Network</a>
+      <a href="#rates">Rates</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <span class="nav-meta"><span class="dot"></span>1 build slot · Summer 2026</span>
+    <a class="nav-cta" href="#blueprint">Start a Blueprint<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h6M6 3l3 3-3 3" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
+    <a href="#blueprint">Blueprint</a>
+    <a href="#offer">Phases</a>
+    <a href="#process">Process</a>
+    <a href="#network">Network</a>
+    <a href="#rates">Rates</a>
+    <a href="#faq">FAQ</a>
+    <a href="#cta" class="mobile-menu-cta">Start a Blueprint</a>
+  </nav>
+</header>
+
+<main id="top" tabindex="-1">
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-eyebrow">
+      <span class="num">Carpathcode</span>
+      <span class="rule" aria-hidden="true"></span>
+      <span>Cluj-Napoca &middot; Romania &middot; EET</span>
     </div>
+
+    <h1 class="hero-claim reveal">
+      The CTO you<br/>
+      don&rsquo;t have yet.
+    </h1>
+    <p class="hero-deck reveal">
+      A written <strong>Blueprint</strong>, then a <span class="accent">fixed-price build</span>.
+    </p>
+
+    <div class="hero-sub reveal">
+      <div class="hero-lede">
+        <p class="lede-open">A <span class="accent">network studio</span> for funded seed and Series&nbsp;A founders without a CTO.</p>
+        <p>One accountable principal in Cluj-Napoca. Trusted collaborators in iOS, backend, web, and design plugged in per engagement.</p>
+        <p>Scope, price, and timeline are locked in writing during the Blueprint &mdash; before either side signs for the Build.</p>
+      </div>
+      <aside class="spec-card" aria-label="Engagement specification">
+        <div class="spec-card-head">
+          <span class="label">Engagement</span>
+          <span class="ref">REF&nbsp;/&nbsp;2026</span>
+        </div>
+        <div class="spec-list">
+          <div class="spec-item">
+            <span class="k">Built for</span>
+            <span class="v">Funded seed / Series&nbsp;A &middot; <strong>no CTO</strong></span>
+          </div>
+          <div class="spec-item">
+            <span class="k">Disciplines</span>
+            <span class="v">iOS &middot; backend &middot; web &middot; design</span>
+          </div>
+          <div class="spec-item">
+            <span class="k">Default shape</span>
+            <span class="v">Phased Blueprint &rarr; Build &middot; <span class="accent">fixed price</span></span>
+          </div>
+          <div class="spec-item">
+            <span class="k">First step</span>
+            <span class="v">Blueprint &middot; <span class="accent">2&ndash;3 weeks, paid</span></span>
+          </div>
+        </div>
+      </aside>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#blueprint">Start with a Blueprint<svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h8M7 3l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="btn btn-ghost" href="#offer">See the phases</a>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!--hero header-->
-<section class="py-7 py-md-0 bg-hero" id="home">
-    <div class="container">
-        <div class="row vh-md-100">
-            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
-                <h1 class="heading-black text-capitalize">Your Vision, Our Code</h1>
-                <p class="lead py-3">CARPATHCODE delivers custom mobile applications designed for performance and user experience. Our team blends innovative technology with creative design to produce apps that stand out in the mobile marketplace. Let’s bring your app idea to life.</p>
-                <a href="mailto:victor.tatarasanu@gmail.com" class="btn btn-primary d-inline-flex flex-row align-items-center">
-                Get in touch!
-                    <em class="ml-2" data-feather="arrow-right"></em>
-                </a>
-            </div>
-        </div>
+<section class="bay bay--surface" id="blueprint">
+  <div class="wrap">
+    <div class="bay-head">
+      <div class="bay-kicker"><span class="num">01</span>First step</div>
+      <h2 class="bay-title">A written Blueprint <em>before the Build.</em></h2>
+      <p class="bay-lede">Two to three weeks of paid work. A written technical architecture, scope, role plan, and a fixed price for the Build. Credits one-for-one against the Build if you commit within thirty days.</p>
     </div>
+    <div class="blueprint-doc reveal">
+      <div class="bp-deliverable">
+        <div class="bp-deliverable-head">
+          <span class="bp-doc-label">Deliverable</span>
+          <span class="bp-doc-meta">Written document · signed · yours to keep</span>
+        </div>
+        <ol class="bp-items">
+          <li>
+            <span class="bp-num">01</span>
+            <div>
+              <h4>Target architecture</h4>
+              <p>iOS, backend, and web &mdash; components, boundaries, and the runtime decisions behind them.</p>
+            </div>
+          </li>
+          <li>
+            <span class="bp-num">02</span>
+            <div>
+              <h4>Data model &amp; integrations</h4>
+              <p>Schema, third-party APIs, auth, payments, and storage &mdash; mapped before the Build starts.</p>
+            </div>
+          </li>
+          <li>
+            <span class="bp-num">03</span>
+            <div>
+              <h4>Role mix &amp; collaborators</h4>
+              <p>Named operators for each discipline on the Build, with availability confirmed.</p>
+            </div>
+          </li>
+          <li>
+            <span class="bp-num">04</span>
+            <div>
+              <h4>Week-by-week plan</h4>
+              <p>From kickoff through launch handoff. Milestones tied to outcomes, not stand-ups.</p>
+            </div>
+          </li>
+          <li>
+            <span class="bp-num">05</span>
+            <div>
+              <h4>Risk register</h4>
+              <p>What could slip, why it would slip, and the mitigation written against each line.</p>
+            </div>
+          </li>
+          <li>
+            <span class="bp-num">06</span>
+            <div>
+              <h4>Fixed price for the Build</h4>
+              <p>One number. Locked at signature. No surprise re-scoping mid-engagement.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <p class="bp-coda">
+        If you don&rsquo;t commit to the Build, you keep the document. The Blueprint is the <strong>cheapest test</strong> of whether Carpathcode is the right shape for the problem &mdash; before either party signs anything beyond it.
+      </p>
+    </div>
+  </div>
 </section>
 
-<!--footer-->
-<footer class="py-6">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 mr-auto">
-                <h5>About CARPATHCODE</h5>
-                <p class="text-muted">Nested in the tech-savvy heart of Cluj-Napoca, CarpathCode is a boutique agency dedicated to crafting exceptional mobile applications. Our small, agile team channels the innovative spirit of Romania into every project, delivering tailor-made mobile experiences with a personal touch.</p>
-            </div>
-            <div class="col-sm-4">
-                <h5>Contact</h5>
-                <ul class="list-unstyled">
-                    <li><p>Aurel Gurghianu nr. 31</p></li>
-                    <li><p>victor.tatarasanu@gmail.com</p></li>
-                    <li><p>+40 745 265 862</p></li>
-                </ul>
-            </div>
-        </div>
-        <div class="row mt-2">
-            <div class="col-12 text-muted text-center small-xl">
-                &copy; 2023 Carpath Code
-            </div>
-        </div>
+<section class="bay bay--surface bay--paired" id="fit">
+  <div class="wrap">
+    <div class="bay-head">
+      <div class="bay-kicker"><span class="num">02</span>Fit</div>
+      <h2 class="bay-title">Is this for you?</h2>
+      <p class="bay-lede">Three honest answers: right fit, alt shape, wrong shape. The Blueprint surfaces which one you are before any contract is signed.</p>
     </div>
+    <div class="triplet reveal">
+      <div class="triplet-cell">
+        <div class="triplet-num"><span>01 &mdash; Yes</span><span>Right fit</span></div>
+        <h3 class="triplet-title">Funded seed or Series A. No full-time CTO yet.</h3>
+        <p class="triplet-body">A clear product to ship, a board that wants budget certainty, and a launch window the Blueprint can plan against. Comfortable with one accountable principal owning the engagement, with collaborators plugged in as scope demands.</p>
+        <div class="triplet-tags">
+          <span class="triplet-tag">Seed / Series A</span>
+          <span class="triplet-tag">No CTO</span>
+          <span class="triplet-tag">Fixed scope</span>
+          <span class="triplet-tag">Board-ready</span>
+          <span class="triplet-tag">Blueprint first</span>
+        </div>
+      </div>
+      <div class="triplet-cell">
+        <div class="triplet-num"><span>02 &mdash; Maybe</span><span>Alt shape</span></div>
+        <h3 class="triplet-title">An existing team that needs surge across a single discipline.</h3>
+        <p class="triplet-body">A funded company with engineers in place that needs senior iOS, design, or web help for a specific launch window. That is the single-discipline drop, not the full Build &mdash; smaller scope, shorter clock, fixed price.</p>
+        <div class="triplet-tags">
+          <span class="triplet-tag">Existing team</span>
+          <span class="triplet-tag">Single discipline</span>
+          <span class="triplet-tag">4&ndash;8 weeks</span>
+          <span class="triplet-tag">Fixed scope</span>
+        </div>
+      </div>
+      <div class="triplet-cell">
+        <div class="triplet-num"><span>03 &mdash; No</span><span>Wrong shape</span></div>
+        <h3 class="triplet-title">Agency-scale enterprise programs or open-ended time-and-materials.</h3>
+        <p class="triplet-body">This studio does not run enterprise transformation programs and does not take time-and-materials engagements without fixed scope. The Blueprint will say so out loud if the brief lands there.</p>
+        <div class="triplet-tags">
+          <span class="triplet-tag">Not enterprise</span>
+          <span class="triplet-tag">Not T&amp;M</span>
+          <span class="triplet-tag">Not staff-aug</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bay" id="offer">
+  <div class="wrap">
+    <div class="bay-head">
+      <div class="bay-kicker"><span class="num">03</span>Phases</div>
+      <h2 class="bay-title">Three phases. <em>Each priced. Each gated.</em></h2>
+      <p class="bay-lede">Blueprint qualifies the work. Build ships v1. Embedded runs post-launch. Walk between phases without losing what you paid for.</p>
+    </div>
+    <div class="work-grid reveal">
+      <article class="case">
+        <div class="case-head"><span class="client">01 &middot; Blueprint</span><span>2&ndash;3 wks &middot; &euro;15,000</span></div>
+        <h3 class="case-title">Written architecture, fixed scope, and a <em>fixed price</em> for the Build.</h3>
+        <div class="case-foot">
+          <div class="case-chips">
+            <span class="case-chip">Architecture</span>
+            <span class="case-chip">Data model</span>
+            <span class="case-chip">Role mix</span>
+            <span class="case-chip">Risk register</span>
+            <span class="case-chip">Credits to Build</span>
+          </div>
+          <div class="case-metric">
+            <div class="v">&euro;15k</div>
+            <div class="l">credits to Build</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case-head"><span class="client">02 &middot; Build v1</span><span>Scope-dependent &middot; &euro;110k&ndash;&euro;180k</span></div>
+        <h3 class="case-title">A v1 across iOS, backend, web, and design &mdash; <em>fixed scope and timeline locked in the Blueprint.</em></h3>
+        <div class="case-foot">
+          <div class="case-chips">
+            <span class="case-chip">iOS</span>
+            <span class="case-chip">Backend</span>
+            <span class="case-chip">Web</span>
+            <span class="case-chip">Design system</span>
+            <span class="case-chip">Launch</span>
+          </div>
+          <div class="case-metric">
+            <div class="v">Fixed</div>
+            <div class="l">scope &amp; price</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case-head"><span class="client">03 &middot; Embedded</span><span>Rolling &middot; &euro;10,000/mo</span></div>
+        <h3 class="case-title">Post-launch retainer with the principal on call &mdash; <em>ship cycles, not tickets.</em></h3>
+        <div class="case-foot">
+          <div class="case-chips">
+            <span class="case-chip">Ship cycles</span>
+            <span class="case-chip">On-call principal</span>
+            <span class="case-chip">Hiring plan</span>
+            <span class="case-chip">Specialist callouts</span>
+            <span class="case-chip">Optional</span>
+          </div>
+          <div class="case-metric">
+            <div class="v">&euro;10k</div>
+            <div class="l">per month, rolling</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="case">
+        <div class="case-head"><span class="client">Alt &middot; Single-discipline drop</span><span>4&ndash;8 wks &middot; &euro;28k&ndash;&euro;48k</span></div>
+        <h3 class="case-title">A single specialist in your existing team &mdash; <em>iOS, design, or web.</em></h3>
+        <div class="case-foot">
+          <div class="case-chips">
+            <span class="case-chip">Existing team</span>
+            <span class="case-chip">One discipline</span>
+            <span class="case-chip">Fixed scope</span>
+            <span class="case-chip">Your repo</span>
+            <span class="case-chip">Your CI</span>
+          </div>
+          <div class="case-metric">
+            <div class="v">1 stack</div>
+            <div class="l">single-discipline</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="bay bay--tint" id="process">
+  <div class="wrap">
+    <div class="bay-head">
+      <div class="bay-kicker"><span class="num">04</span>Process</div>
+      <h2 class="bay-title">Four phases, <em>not a stopwatch.</em></h2>
+      <p class="bay-lede">What happens in each phase, what ends it, what handoff looks like. The calendar is locked in the Blueprint, not on this page.</p>
+    </div>
+    <div class="rail reveal">
+      <div class="rail-cell">
+        <div class="rail-day">Phase 01</div>
+        <div class="rail-num">01</div>
+        <div class="rail-body">Sprint zero. Design system, data schema, API contracts, and scaffolds across iOS, backend, and web stood up in parallel. The phase ends when there is a runnable build on every stack.</div>
+        <div class="rail-title">Sprint zero</div>
+      </div>
+      <div class="rail-cell">
+        <div class="rail-day">Phase 02</div>
+        <div class="rail-num">02</div>
+        <div class="rail-body">Parallel build. iOS, backend, and web features land against a shared schema. Weekly demo on Friday. The phase ends when the feature set agreed in the Blueprint is feature-complete on internal builds.</div>
+        <div class="rail-title">Parallel build</div>
+      </div>
+      <div class="rail-cell">
+        <div class="rail-day">Phase 03</div>
+        <div class="rail-num">03</div>
+        <div class="rail-body">Integration and beta. End-to-end flows hardened across stacks. Closed beta on TestFlight and staging. Performance, accessibility, and store-submission prep happen here, not at the end.</div>
+        <div class="rail-title">Integration &amp; beta</div>
+      </div>
+      <div class="rail-cell">
+        <div class="rail-day">Phase 04</div>
+        <div class="rail-num">04</div>
+        <div class="rail-body">Launch. Store submission filed, production cutover, day-of-launch ops. Repositories, cloud accounts, and the hiring plan handed over to you and your future CTO. Store approval is on Apple&rsquo;s clock, not the studio&rsquo;s.</div>
+        <div class="rail-title">Launch &amp; handoff</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bay" id="network">
+  <div class="wrap">
+    <div class="bay-head">
+      <div class="bay-kicker"><span class="num">05</span>Network</div>
+      <h2 class="bay-title">One principal. <em>Collaborators on contract.</em></h2>
+      <p class="bay-lede">Carpathcode is a network studio, not an agency. One accountable principal owns every engagement; senior collaborators plug in where the work demands them.</p>
+    </div>
+    <div class="bay-prose reveal">
+      <p>
+        A single technical principal in Cluj-Napoca owns the engagement, plus collaborators in iOS, backend, web, and design who plug in as the scope demands. The principal is on every call, in every pull request, and accountable for what ships.
+      </p>
+      <p>
+        Collaborators are senior operators paid as contractors, brought in only where the work requires their craft. There is no junior bench, no project-manager layer, and no internal hiring sales motion. The Blueprint phase decides the role mix and names the people before any of them sign an engagement &mdash; and if the right collaborator for a brief isn&rsquo;t available, the Blueprint says so in writing.
+      </p>
+      <p>
+        The Build phase invoices once, at the fixed price agreed in the Blueprint. The launch handoff goes to <em>your full-time CTO</em>, not back to the studio &mdash; with the repository, cloud accounts, App Store listing, and a written hiring plan for the team you grow next.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="bay bay--surface" id="ailoop">
+  <div class="wrap">
+    <div class="bay-head">
+      <div class="bay-kicker"><span class="num">06</span>AI loop</div>
+      <h2 class="bay-title">What the AI workflow <em>actually does.</em></h2>
+      <p class="bay-lede">The model drafts. The toolchain checks. The engineer decides. Three layers, named tools, no marketing slop.</p>
+    </div>
+    <div class="triplet reveal">
+      <div class="triplet-cell">
+        <div class="triplet-num"><span>01 &mdash; What the model drafts</span><span>Pair</span></div>
+        <h3 class="triplet-title">SwiftUI scaffolds, Codable types, migrations, tests, copy.</h3>
+        <p class="triplet-body">An LLM runs in the editor alongside Xcode. It drafts SwiftUI views and view models, Codable types from JSON samples, Core Data and SwiftData migrations, XCTest and Swift Testing cases against acceptance criteria, mock API clients, and the first pass of App Store copy.</p>
+        <div class="triplet-tags">
+          <span class="triplet-tag">Editor pair</span>
+          <span class="triplet-tag">SwiftUI</span>
+          <span class="triplet-tag">Codable</span>
+          <span class="triplet-tag">SwiftData migrations</span>
+          <span class="triplet-tag">Test cases</span>
+        </div>
+      </div>
+      <div class="triplet-cell">
+        <div class="triplet-num"><span>02 &mdash; What runs on every commit</span><span>CI</span></div>
+        <h3 class="triplet-title">xcodebuild, XCTest, SwiftLint, SwiftFormat, Xcode Cloud.</h3>
+        <p class="triplet-body">Every commit is built and tested on Xcode Cloud. SwiftLint and SwiftFormat pass before merge. Unit and snapshot tests catch regressions across the iOS target. Xcode Cloud handles signing, archive, and TestFlight uploads natively &mdash; no third-party build glue. Nothing ships untested by a real toolchain.</p>
+        <div class="triplet-tags">
+          <span class="triplet-tag">xcodebuild</span>
+          <span class="triplet-tag">XCTest</span>
+          <span class="triplet-tag">SwiftLint</span>
+          <span class="triplet-tag">SwiftFormat</span>
+          <span class="triplet-tag">Xcode Cloud</span>
+        </div>
+      </div>
+      <div class="triplet-cell">
+        <div class="triplet-num"><span>03 &mdash; What humans decide</span><span>Principal &amp; specialists</span></div>
+        <h3 class="triplet-title">Architecture, what ships, the hiring plan, the call when the model is wrong.</h3>
+        <p class="triplet-body">Architecture and module boundaries, data flow and Swift concurrency, what makes the cut for launch, store-submission and launch strategy, every line of production code reviewed, and the hiring plan handed to your future CTO &mdash; all decided by the principal and named collaborators, never by the model alone.</p>
+        <div class="triplet-tags">
+          <span class="triplet-tag">Architecture</span>
+          <span class="triplet-tag">Scope cuts</span>
+          <span class="triplet-tag">Code review</span>
+          <span class="triplet-tag">Hiring plan</span>
+          <span class="triplet-tag">Launch strategy</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bay" id="rates">
+  <div class="wrap">
+    <div class="bay-head">
+      <div class="bay-kicker"><span class="num">07</span>Rates &amp; ownership</div>
+      <h2 class="bay-title">Published rates. <em>Phase-gated. Code you own from day one.</em></h2>
+      <p class="bay-lede">Every engagement shape, what it costs, how it bills, and what transfers when. No surprises after the call.</p>
+    </div>
+    <div class="rates reveal">
+      <div class="rate-row">
+        <div class="rate-key"><span class="num">a</span>Blueprint</div>
+        <div class="rate-val">&euro;15,000 fixed, two to three weeks. Credits one-for-one against the Build price if you commit within thirty days.</div>
+        <div class="rate-tag"><span class="pill">Paid &middot; 2&ndash;3 wks</span></div>
+      </div>
+      <div class="rate-row">
+        <div class="rate-key"><span class="num">b</span>Build v1</div>
+        <div class="rate-val">&euro;110,000 &mdash; &euro;180,000 fixed for a v1 across iOS, backend, web, and design. Exact scope, price, and timeline locked in the Blueprint.</div>
+        <div class="rate-tag"><span class="pill"><span class="dot"></span>1 slot / Summer 2026</span></div>
+      </div>
+      <div class="rate-row">
+        <div class="rate-key"><span class="num">c</span>Embedded retainer</div>
+        <div class="rate-val">&euro;10,000 / month, rolling. Or &euro;140 / hour capped at twenty hours per week.</div>
+        <div class="rate-tag"><span class="pill">Monthly &middot; rolling</span></div>
+      </div>
+      <div class="rate-row">
+        <div class="rate-key"><span class="num">d</span>Single-discipline drop</div>
+        <div class="rate-val">&euro;28,000 &mdash; &euro;48,000 fixed for four to eight weeks of senior iOS, design, or web work inside an existing team.</div>
+        <div class="rate-tag"><span class="pill">Fixed &middot; alt shape</span></div>
+      </div>
+      <div class="rate-row">
+        <div class="rate-key"><span class="num">e</span>Audit &amp; written review</div>
+        <div class="rate-val">&euro;5,500 fixed, one week. A written review of an existing codebase &mdash; architecture, risks, next steps.</div>
+        <div class="rate-tag"><span class="pill">Fixed &middot; 1 wk</span></div>
+      </div>
+      <div class="rate-row">
+        <div class="rate-key"><span class="num">f</span>Phase gating &amp; ownership</div>
+        <div class="rate-val">Repository, cloud accounts, and App Store listing under your developer account from day one. Phase gates let you walk between phases with everything built so far.</div>
+        <div class="rate-tag"><span class="pill">Day-one transfer</span></div>
+      </div>
+      <div class="rate-row">
+        <div class="rate-key"><span class="num">g</span>Timezone &amp; invoicing</div>
+        <div class="rate-val">EET working hours, with a morning overlap with US East &mdash; roughly two to three hours depending on daylight saving. EU invoice from a Cluj-Napoca company, EUR or USD.</div>
+        <div class="rate-tag"><span class="pill">EET +0200</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bay" id="faq">
+  <div class="wrap">
+    <div class="bay-head">
+      <div class="bay-kicker"><span class="num">08</span>FAQ</div>
+      <h2 class="bay-title">Common questions.</h2>
+      <p class="bay-lede">What funded founders ask before signing the Blueprint. Plain answers, no marketing.</p>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-q" type="button" id="faq-q1" aria-expanded="false" aria-controls="faq-a1">
+          <span>Why a paid Blueprint instead of a free discovery call?</span>
+          <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 3v10M3 8h10" stroke-linecap="round"/></svg>
+        </button>
+        <div class="faq-a" id="faq-a1" role="region" aria-labelledby="faq-q1"><div class="faq-a-inner">
+          A thirty-minute call cannot produce architecture, a verified scope, a role plan, or a fixed price. Two to three weeks of paid work can. The Blueprint is a useful artifact whether or not the Build happens, and the &euro;15,000 credits one-for-one to the Build engagement if you commit within thirty days.
+        </div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" id="faq-q2" aria-expanded="false" aria-controls="faq-a2">
+          <span>Is this an agency, a freelancer, or what exactly?</span>
+          <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 3v10M3 8h10" stroke-linecap="round"/></svg>
+        </button>
+        <div class="faq-a" id="faq-a2" role="region" aria-labelledby="faq-q2"><div class="faq-a-inner">
+          A network studio. One accountable principal in Cluj-Napoca owns the engagement end to end, and brings in trusted collaborators on contract where the scope requires their craft. No junior bench, no project-manager layer. The Blueprint names the people for your Build before either side signs for the Build.
+        </div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" id="faq-q3" aria-expanded="false" aria-controls="faq-a3">
+          <span>Who is actually writing code on my Build?</span>
+          <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 3v10M3 8h10" stroke-linecap="round"/></svg>
+        </button>
+        <div class="faq-a" id="faq-a3" role="region" aria-labelledby="faq-q3"><div class="faq-a-inner">
+          The principal, plus the named collaborators from the Blueprint. Collaborators are senior operators paid as contractors, brought in only for the disciplines the work demands &mdash; iOS, backend, web, or design. You meet them before kickoff. There is no swap-out to juniors and no offshore subcontracting.
+        </div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" id="faq-q4" aria-expanded="false" aria-controls="faq-a4">
+          <span>What if the right collaborator for my brief isn&rsquo;t available?</span>
+          <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 3v10M3 8h10" stroke-linecap="round"/></svg>
+        </button>
+        <div class="faq-a" id="faq-a4" role="region" aria-labelledby="faq-q4"><div class="faq-a-inner">
+          The Blueprint surfaces that gap before any Build contract is signed. Either the principal proposes a collaborator who is a strong fit and you approve them, or the Blueprint declares the brief outside scope and recommends a different shop. Honest about the gap beats fake confidence and a failed Build.
+        </div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" id="faq-q5" aria-expanded="false" aria-controls="faq-a5">
+          <span>Who owns the code, the cloud accounts, and the App Store listing?</span>
+          <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 3v10M3 8h10" stroke-linecap="round"/></svg>
+        </button>
+        <div class="faq-a" id="faq-a5" role="region" aria-labelledby="faq-q5"><div class="faq-a-inner">
+          You. Repositories transfer on day one of the Build. App Store listing, signing certificates, AWS or GCP accounts, and domain DNS all sit under your accounts from the start.
+        </div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" id="faq-q6" aria-expanded="false" aria-controls="faq-a6">
+          <span>What if the Build phase slips past the Blueprint timeline?</span>
+          <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 3v10M3 8h10" stroke-linecap="round"/></svg>
+        </button>
+        <div class="faq-a" id="faq-a6" role="region" aria-labelledby="faq-q6"><div class="faq-a-inner">
+          The Build is a fixed-scope engagement against the Blueprint. Scope changes inside the engagement are handled as written change orders. Schedule overruns caused by the studio are absorbed; overruns caused by client-side changes extend at the published hourly rate. Phase gating means you can also walk between phases with everything built so far.
+        </div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" id="faq-q7" aria-expanded="false" aria-controls="faq-a7">
+          <span>What happens at handoff to my future full-time CTO?</span>
+          <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 3v10M3 8h10" stroke-linecap="round"/></svg>
+        </button>
+        <div class="faq-a" id="faq-a7" role="region" aria-labelledby="faq-q7"><div class="faq-a-inner">
+          The launch handoff includes the running v1, repositories and cloud accounts under your ownership, an annotated architecture document, and a written hiring plan for the team you grow next. The optional Embedded retainer keeps the principal on call while the in-house team ramps.
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="cta">
+  <div class="wrap cta-inner">
+    <div class="cta-main">
+      <h2 class="cta-claim">
+        Send the brief.<br/>
+        Start with<br/>
+        <em>a Blueprint.</em>
+      </h2>
+      <div class="cta-buttons">
+        <a class="btn btn-primary" target="_top" rel="noopener" href="mailto:office@carpathcode.com?subject=Blueprint%20%E2%80%94%20v1%20build">Email the brief<svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h8M7 3l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="btn btn-ghost" target="_top" rel="noopener" href="mailto:office@carpathcode.com?subject=20-min%20intro%20call">Email for a 20-min intro</a>
+      </div>
+    </div>
+    <div class="cta-side">
+      <div class="cta-line">
+        01 &middot; You send the brief
+        <span class="v">A few paragraphs by email: product, raise stage, target launch window.</span>
+      </div>
+      <div class="cta-line">
+        02 &middot; Blueprint delivery
+        <span class="v">Two to three weeks of paid work end with a written Blueprint: architecture, scope, role mix, fixed price and timeline for the Build.</span>
+      </div>
+      <div class="cta-line">
+        03 &middot; Commit within 30 days
+        <span class="v">Build kickoff. The &euro;15,000 Blueprint fee credits 100% to the engagement.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot-greet">
+    <div class="foot-greet-track" id="greet-track" aria-hidden="true">
+      <span class="city">CLUJ-NAPOCA</span><span class="hi">SALUT</span>
+      <span class="city">BRA&#536;OV</span><span class="hi">NOROC</span>
+      <span class="city">SIBIU</span><span class="hi">BUN&#258;</span>
+      <span class="city">KRAK&Oacute;W</span><span class="hi">CZE&#346;&#262;</span>
+      <span class="city">BUDAPEST</span><span class="hi">SZIA</span>
+      <span class="city">LJUBLJANA</span><span class="hi">&#381;IVJO</span>
+      <span class="city">PORTO</span><span class="hi">OL&Aacute;</span>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand-block">
+        <div class="foot-brand-row">
+          <svg class="brand-mark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M2 20L7.5 7.5l3.5 5.2 3-3.7 6 11H2z" fill="currentColor"/>
+          </svg>
+          Carpathcode
+        </div>
+        <p class="foot-desc">A network studio in Cluj-Napoca, Romania. One accountable principal and on-demand specialists in iOS, backend, web, and design. Phased engagements for funded seed and Series A founders without a CTO.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Sections</h4>
+        <a href="#blueprint">Blueprint</a>
+        <a href="#offer">Phases</a>
+        <a href="#process">Process</a>
+        <a href="#network">Network</a>
+        <a href="#ailoop">AI loop</a>
+        <a href="#rates">Rates</a>
+      </div>
+      <div class="foot-col">
+        <h4>Resources</h4>
+        <a href="#fit">Fit</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a target="_top" rel="noopener" href="mailto:office@carpathcode.com?subject=Blueprint%20%E2%80%94%20v1%20build">office@carpathcode.com</a>
+        <a target="_top" rel="noopener" href="mailto:office@carpathcode.com?subject=20-min%20intro%20call">Email for a 20-min intro</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>&copy; 2026 Carpathcode &middot; Cluj-Napoca, Romania</div>
+      <div class="right">
+        <span>carpathcode.com</span>
+        <span>EET +0200</span>
+      </div>
+    </div>
+  </div>
 </footer>
 
-<!--scroll to top-->
-<div class="scroll-top">
-    <i class="fa fa-angle-up" aria-hidden="true"></i>
+<div class="consent" id="consent" role="dialog" aria-modal="false" aria-label="Analytics consent" hidden>
+  <p class="consent-text">We use Google Analytics to understand site traffic. Load analytics cookies?</p>
+  <div class="consent-actions">
+    <button class="btn-consent btn-consent--no" type="button" id="consent-decline">Decline</button>
+    <button class="btn-consent btn-consent--yes" type="button" id="consent-accept">Accept</button>
+  </div>
 </div>
 
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script src="js/scripts.js"></script>
+<script src="js/nav.js" defer></script>
+<script src="js/reveal.js" defer></script>
+<script src="js/faq.js" defer></script>
+<script src="js/marquee.js" defer></script>
+<script src="js/analytics.js" defer></script>
 </body>
 </html>
