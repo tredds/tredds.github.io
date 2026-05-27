@@ -3,6 +3,16 @@
   var KEY = 'cc-analytics-consent';
   var banner = document.getElementById('consent');
 
+  // "Cookie settings" — withdraw/change consent as easily as granting it.
+  var reset = document.getElementById('cookie-reset');
+  if (reset) {
+    reset.addEventListener('click', function (e) {
+      e.preventDefault();
+      try { localStorage.removeItem(KEY); } catch (err) {}
+      location.reload();
+    });
+  }
+
   function loadGA() {
     if (window.__gaLoaded || !/^G-/.test(GA_ID)) return;
     window.__gaLoaded = true;

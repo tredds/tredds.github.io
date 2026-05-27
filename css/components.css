@@ -233,6 +233,8 @@
   box-shadow: 0 12px 44px oklch(0% 0 0 / 0.16);
 }
 .consent-text { font-size: 14px; line-height: 1.5; color: var(--fg); }
+.consent-text a { color: var(--accent-ink); border-bottom: 1px solid var(--accent); }
+.consent-text a:hover { color: var(--ink); }
 .consent-actions { display: flex; gap: 10px; justify-content: flex-end; }
 .btn-consent {
   height: 44px; padding: 0 20px;
@@ -241,7 +243,15 @@
   border: 0;
   transition: background 0.15s ease, box-shadow 0.15s ease;
 }
-.btn-consent--yes { background: var(--ink); color: var(--on-ink); }
-.btn-consent--yes:hover { background: var(--ink-soft); }
-.btn-consent--no { background: transparent; color: var(--fg); box-shadow: inset 0 0 0 1px var(--border); }
-.btn-consent--no:hover { box-shadow: inset 0 0 0 1px var(--border-strong); }
+/* Equal visual weight — no nudge toward Accept (GDPR / EDPB guidance). */
+.btn-consent--yes,
+.btn-consent--no {
+  background: transparent;
+  color: var(--fg);
+  box-shadow: inset 0 0 0 1px var(--border);
+}
+.btn-consent--yes:hover,
+.btn-consent--no:hover {
+  background: var(--surface-2);
+  box-shadow: inset 0 0 0 1px var(--border-strong);
+}
